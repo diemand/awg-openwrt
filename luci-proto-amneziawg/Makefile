@@ -13,6 +13,6 @@ LUCI_PKGARCH:=all
 PKG_MAINTAINER:=Amnezia Admin <admin@amnezia.org>
 PKG_VERSION:=1.0.0-$(AUTORELEASE)
 
-include ../../luci.mk
+include ../../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
